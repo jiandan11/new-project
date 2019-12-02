@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+
+html {
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, p, blockquote, button, img {
+	margin: 0;
+	padding: 0;
+}
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
+	legend, input, textarea, p, blockquote, th, td, hr, button, article,
+	aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+	section {
+	margin: 0;
+	padding: 0;
+}
+
+img, button {
+	border: none;
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+body {
+	font-family: "微软雅黑", "宋体";
+	font-size: 12px;
+	color: #343434; /*background: #F3F3F3;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+	font-weight: 500;
+}
+
+s, i, u, em {
+	font-style: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+audio, canvas, video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+body, button, input, select, textarea {
+	font: 12px/1.5 tahoma, arial, \5b8b\4f53;
+}
+
+body {
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+
+input, select, textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	text-align: inherit;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+iframe {
+	display: block;
+}
+
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: 500;
+}
+
+caption, th {
+	text-align: left;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	recommend: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ins, a {
+	text-decoration: none;
+}
+
+.fn-clear {
+	font-size: 0px;
+	height: 0px;
+	line-height: 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+body .fn-hide {
+	display: none;
+}
+
+.fn-left, .fn-right {
+	display: inline;
+}
+
+.fn-left {
+	float: left;
+}
+
+.fn-right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+a {
+	color: #343434;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ce2029;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	-moz-outline: none;
+}
+
+input, textarea {
+	outline: none;
+}
+/*全局属性*/
+body, html {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #06C;
+	text-decoration: none
+}
+/*公共样式*/
+.sep10 {
+	height: 10px;
+	clear: both;
+}
+
+.sep5 {
+	height: 5px;
+	clear: both;
+}

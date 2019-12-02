@@ -1,0 +1,25 @@
+<META http-equiv="content-type" content="text/html; charset=UTF-8">    <div >
+        <form action="/Form/purseformpushdata" method="post" id="formhtmlsubmit" onsubmit="return formhtmlsubmit()" style="width:500px;margin:0 auto;background-color:gold;" enctype="multipart/form-data">
+            <input type='hidden' name='rfid' value='1'>
+            <ul style="padding: 20px;"><li style="list-style-type:none;margin: 11px;"><label style="width:52px;display:inline-block;margin-right:10px;color:green;">联系人</label><input type='text'  name='lianxiren' maxlength='11' placeholder='请输入姓名' style="width:300px;height:30px;font-color:blue;"/></li><li style="list-style-type:none;margin: 10px;"><label style="width:52px;display:inline-block;margin-right:10px;color:green;">联系电话</label><input type='text'  name='telephone' maxlength='11' placeholder='请输入电话' style="width:300px;height:30px;font-color:green;"/></li><li style="list-style-type:none;margin: 11px;"><label style="margin-right:10px;color:green;">联系地址</label><input type='text'  name='address' maxlength='32' placeholder='请输入地址' style="width:300px;height:30px;font-color:blue;"/></li><li style="list-style-type:none;margin: 11px;"><label style="width:52px;display:inline-block;margin-right:10px;color:green;">财产</label><input type='text'  name='money' maxlength='11' placeholder='请输入您的财产' /></li><li style="list-style-type:none;margin: 10px;"><label style="width:52px;display:inline-block;margin-right:10px;color:green;vertical-align: top;">留言</label><textarea name='message' maxlength='32' style="min-width:304px;min-height:60px;"></textarea></li><li style="list-style-type:none;margin: 10px;float:left;margin-left:200px;"><label style="display:inline-block;margin-right:10px;color:green;">女</label><input type='radio'  name='sex' value='女' /></li><li style="list-style-type:none;margin: 10px;float:left"><label style="display:inline-block;margin-right:10px;color:green;">男</label><input type='radio'  name='sex' value='男' /></li></ul>
+            <div style="margin-top:20px;padding-bottom:20px;text-align:center;"><input type='submit' name='提交' value='提交' style="width:120px;height:36px;background-color:orange;border:none;color:#fff;"/></div>
+        </form>
+    </div><script>
+            function formhtmlsubmit(){
+                  $.ajax({ 
+                    url:"/Form/purseformpushdata",
+                    type:"POST",
+                    data:$('#formhtmlsubmit').serialize(),
+                    success:function(result){
+                      if(result==1){
+                        alert("dsffdh");
+                        location.href="/";
+                        return;
+                      }else{
+                        alert(result);
+                      }
+                    }
+                  });
+                  return false;
+            }
+</script>

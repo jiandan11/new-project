@@ -1,0 +1,62 @@
+﻿0 : 为 模型 添加 自定义字段： allfile 
+  	设置自定义配置：选择上传类型 oss 或者 fastdfs
+			文件类型，宽度，高度等
+	详见图1.jpg
+
+
+1 : file 文件夹下 创建allfile_tempfile 临时文件存放 -----file/allfile_tempfile 
+
+2 : 复制allfile文件夹,异步上传需要 jquery-form.js
+
+3 : wangjile/tn/ tool_allfile.php
+
+4 : wangjile/js/common.js 稍微修改2部分
+ 	
+
+417 行
+	url="index.php?tn=do&ac=imgcut&src="+encodeURIComponent(src);
+			
+	/*===========自定义插件=============*/
+	if(cfg.allfileurl != 'undefined' &&cfg.allfileurl!=null &&cfg.allfileurl!=''){
+		url=cfg.alluseurl+encodeURIComponent(src);
+	}
+	/*===========结束=============*/
+
+	if(resize){
+		url+='&resize=1&width='+end_width+'&height='+end_height+'&tosmall='+cfg.tosmall+'&bcolor='+encodeURIComponent(cfg.bcolor);
+	}else{
+		url+='&resize=0&radio='+img_radio+'&x1='+end_x1+'&y1='+end_y1+'&x2='+end_x2+'&y2='+end_y2;
+	}
+
+453行
+	var load=function(){
+	var filepath=_glb['fileurl']||'/file';
+
+	/*========自定义插件=========*/
+	if(cfg.allfileurl != 'undefined' &&cfg.allfileurl!=null &&cfg.allfileurl!=''){
+		filepath = cfg.allfileurl;
+	}
+	/*==========结束==========*/
+
+	CutObj=false;
+	$.plugin('ByImgCut',{
+		files:['js/imgareaselect.js','style/'+StyleDir+'/imgcut.css'],
+		selectors:['body'],
+		callback:function(){
+			create();
+		}
+	});
+	详见图2.jpg 详见图3.jpg
+
+
+
+
+
+5 : 阿里云oss文件夹 放在 core/lib,
+	并修改配置 conf.inc.php 详见图4.jpg
+
+        上线需要 自定义资源 域名绑定（比较好）： https://docs.aliyun.com/?spm=5176.2020520105.103.4.1fjpez#/pub/oss/getting-started/bucket-attributes&cname
+	
+	以及其他一些防盗链，什么鬼的
+   
+    	

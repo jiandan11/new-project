@@ -1,0 +1,37 @@
+<?php
+if(!defined('DBGMS_ROOT')){
+header('HTTP/1.1 404 Not Found');
+exit();
+}
+return array (
+  'id' => '25',
+  'state' => '0',
+  'statename' => '正常发布',
+  'hits' => '30',
+  'intime' => '1574125879',
+  'uptime' => '1574229777',
+  'columnid' => '45',
+  'columnname' => '团队风采',
+  'columnsign' => 'team',
+  'adminid' => '1',
+  'adminname' => '超级管理员',
+  'userid' => '',
+  'username' => '互联网',
+  'source' => '互联网',
+  'title' => '王五',
+  'keywords' => '',
+  'description' => '具有多年项目经验的高级工程师',
+  'thumb' => '/file/news/2019/1119/157412589080686.jpg',
+  'slide' => '/file/default/style1.jpg',
+  'content' => '',
+  'econtent' => '',
+  'download' => '/file/',
+  'label' => '热门服务',
+  'views' => 'team_content.php',
+  'link' => '/zh/team/25.html',
+  'mlink' => 'zh/team/25.html',
+  'param' => 
+  array (
+  ),
+);
+?>

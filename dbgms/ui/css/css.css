@@ -1,0 +1,47 @@
+@charset "utf-8"; /* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cb {
+	clear: both;
+}
+
+body {
+	background: url(../images/bg.jpg) repeat-x #d6dee0;
+}
+
+.box {
+	margin: 0 auto;
+	background: url(../images/box.jpg) center 0 no-repeat;
+	height: 100%;
+}
+
+.fom {
+	margin-left: 560px;
+	float: left;
+	margin-top: 325px;
+	font-size: 18px;
+	line-height: 48px;
+	display: inline
+}
+
+.fom .txt {
+	border: 1px solid #ccc;
+	width: 220px;
+	height: 32px;
+	line-height: 34px;
+	font-size: 16px;
+	color: #333;
+	text-indent: 5px;
+}
+
+.fom .bt {
+	width: 165px;
+	height: 44px;
+	margin: 39px 0 0 78px;
+	border: none;
+	background: none;
+	cursor: pointer
+}

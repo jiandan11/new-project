@@ -1,0 +1,2 @@
+http://code.ciaoca.com/jquery/jcrop/
+http://blog.csdn.net/lybwwp/article/details/17307583

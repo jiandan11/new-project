@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+
+.fext {
+	padding-left: 20px;
+	background: url('../img/ext.gif') no-repeat 0 0
+}
+
+.fcrt {
+	float: left;
+}
+
+.fcrt .mf4 {
+	float: left;
+	margin-left: 4px;
+}
+
+.fcrt b {
+	float: left
+}
+
+.fcrt dl, .fcrt dl dt, .fcrt dl dd {
+	float: left
+}
+
+.fcrt dl dt {
+	line-height: 24px;
+	padding: 0 2px 0 6px;
+}
+
+.fcrt dl dd input {
+	float: left
+}
+
+.fcrt2 {
+	float: right;
+	margin-right: 6px;
+}
+
+.fcrt .upf {
+	margin-left: 4px;
+}
+
+.fcrt .upf .upfw {
+	width: 39px;
+	height: 24px;
+	background: #aaa;
+	float: left;
+	position: relative;
+	overflow: hidden
+}
+
+.fcrt .upf .upfw button {
+	width: 38px;
+	height: 22px;
+	border: 0;
+	background: #fff;
+	padding-top: 4px\9;
+	color: #333;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	z-index: 2;
+}
+
+.fcrt .upf .upfw input {
+	position: absolute;
+	font-size: 53px;
+	left: -110px;
+	top: -30px;
+	z-index: 6;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+}
+
+.c_dir {
+	background-position: 0 -29px
+}
+
+.c_htm, .c_html, .c_shtml {
+	background-position: 0 -57px
+}
+
+.c_txt, .c_ini {
+	background-position: 0 -86px
+}
+
+.c_inc {
+	background-position: 0 -86px
+}
+
+.c_css {
+	background-position: 0 -680px
+}
+
+.c_php {
+	background-position: 0 -646px
+}
+
+.c_js {
+	background-position: 0 -713px
+}
+
+.c_xml {
+	background-position: 0 -743px
+}
+
+.c_gif {
+	background-position: 0 -112px
+}
+
+.c_jpg, .c_jpeg {
+	background-position: 0 -112px
+}
+
+.c_png {
+	background-position: 0 -172px
+}
+
+.c_bmp {
+	background-position: 0 -201px
+}
+
+.c_psd {
+	background-position: 0 -232px
+}
+
+.c_zip {
+	background-position: 0 -396px
+}
+
+.c_rar, .c_gz, .c_bz2, .c_z, .c_tar {
+	background-position: 0 -429px
+}
+
+.c_chm {
+	background-position: 0 -486px
+}
+
+.c_pdf {
+	background-position: 0 -517px
+}
+
+.c_swf {
+	background-position: 0 -550px
+}
+
+.c_exe {
+	background-position: 0 -612px
+}
+
+.c_doc, .c_dot, .c_mht, .c_mhtml {
+	background-position: 0 -363px
+}
+
+.c_xls, .c_xlt {
+	background-position: 0 -264px
+}
+
+.c_ppt {
+	background-position: 0 -329px
+}
+
+.c_mdb {
+	background-position: 0 -296px
+}
+
+.c_mp3, .c_mid, .c_wma, .c_wav, .c_rm, .c_ogg {
+	background-position: 0 -458px
+}
+
+.c_mpg, .c_mpeg, .c_mpe, .c_avi, .c_mp4, .c_asf, .c_mov, .c_wmv, .c_rm,
+	.c_ram, .c_rmvb, .c_3gp, .c_flv {
+	background-position: 0 -581px
+}

@@ -1,0 +1,123 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	font-family: 'microsoft yahei';
+	background-color: #b7cad3;
+	font-size: 14px;
+}
+
+html {
+	_height: auto;
+	_padding: 50px 0 0px;
+}
+
+/*主框架*/
+.install_main {
+	background-image: url(./install_bg.jpg);
+	background-repeat: no-repeat;
+	width: 902px;
+	height: 545px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -451px;
+	margin-top: -293px
+}
+
+.install_menu {
+	width: 249px;
+	margin-left: 1px;
+	margin-top: 204px;
+	color: #3c6174;
+	font-size: 14px;
+	float: left
+}
+
+.install_menu li {
+	background-image: url(./install_menu_bg.jpg);
+	height: 37px;
+	border-bottom: 1px solid #d4dde2;
+	line-height: 37px;
+	padding-left: 20px;
+}
+
+.install_menu .selected {
+	background-image: url(./install_menu_hover.jpg);
+	background-repeat: no-repeat;
+	border: none;
+	position: relative;
+	width: 261px;
+	height: 39px;
+	line-height: 39px;
+	top: -1px;
+}
+
+.install_content {
+	width: 610px;
+	height: 410px;
+	margin-top: 30px;
+	float: right
+}
+
+.install_content .title {
+	font-size: 20px;
+	color: #49585f;
+}
+
+.install_content .central {
+	width: 590px;
+	height: 370px;
+	overflow-y: scroll;
+	margin-top: 20px;
+	line-height: 30px;
+	color: #8ea3ac
+}
+
+.install_content .central h1 {
+	border-bottom: 1px dotted #ccc;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.install_content .central .m-form {
+	
+}
+
+.install_content .central .m-form .formitm .lab {
+	text-align: left;
+	width: 120px;
+	color: #6d7a80;
+}
+
+.install_content .central .m-form .formitm .ipt {
+	margin-left: 120px;
+}
+
+.install_content .central .m-form .formitm .u-ipt {
+	border: 1px solid #b0bdc4;
+	border-radius: 3px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.install_content .bottuns {
+	margin-top: 40px;
+	text-align: center;
+	color: #49585f
+}
+
+.install_content .bottuns a {
+	color: #F90
+}
+
+.install_content .bottuns button {
+	background: url(./install_next.jpg);
+	background-repeat: no-repeat;
+	width: 102px;
+	height: 37px;
+	border: none
+}

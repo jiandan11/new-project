@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="yes" name=" apple-mobile-web-app-capable"/>
+    <meta content="no" name="apple-touch-fullscreen"/>
+    <meta content="black" name=" apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>异店联盟</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/check.js"></script>
+
+</head>
+<body>
+<!--nav-->
+<section>
+    <div class="nav">
+        <div class="safe clear">
+            <div class="logo left"><a href="index.html">异店联盟</a></div>
+            <div class="meun right">
+                <ul>
+                    <li><a href="" class="navon">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="case.html">案例</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--banner-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="pimg" src="../images/banner1.jpg" alt="">
+            <img class="mimg" src="../images/mbanner1.jpg"  alt="">
+        </div>
+        <div class="swiper-slide">
+            <img class="pimg" src="../images/banner2.jpg" alt="">
+            <img class="mimg" src="../images/mbanner2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img class="pimg" src="../images/banner1.jpg" alt="">
+            <img class="mimg" src="../images/mbanner1.jpg" alt="">
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+<!--第一层-->
+<section class="fone">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title1.jpg" alt=""></div>
+        <ul>
+            <li><a href=""><img src="../images/sort1.png" alt=""></a></li>
+            <li><a href=""><img src="../images/sort2.png" alt=""></a></li>
+            <li><a href=""><img src="../images/sort3.png" alt=""></a></li>
+            <li><a href=""><img src="../images/sort4.png" alt=""></a></li>
+            <li><a href=""><img src="../images/sort5.png" alt=""></a></li>
+            <li><a href=""><img src="../images/sort6.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="more"><a href="case.html">
+        <img class="pimg" src="../images/more.jpg" alt="">
+        <img class="mimg" src="../images/mmore.jpg" alt="">
+    </a></div>
+</section>
+
+<!--第二层-->
+<section class="ftwo">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title2.jpg" alt=""></div>
+        <div class="pic"><img src="../images/f2.jpg" alt=""></div>
+    </div>
+</section>
+
+<!--第三层-->
+<section class="fthree">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title3.jpg" alt=""></div>
+        <div class="pic"><img src="../images/f3.jpg" alt=""></div>
+    </div>
+</section>
+
+<!--第四层-->
+<section class="ffour">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title4.jpg" alt=""></div>
+    </div>
+    <div class="ff fathercenter">
+        <img class="cc bgpic" src="../images/f4-1.jpg" alt="">
+        <span class="cc">营销玩法-汇聚流量-提高下单转化率</span>
+        <span class="cc">后台系统不断升级优化，推出新的营销玩法及业务功能</span>
+        <img class="cc" src="../images/f4-2.png" alt="">
+    </div>
+</section>
+
+<!--第五层-->
+<section class="ffive">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title5.jpg" alt=""></div>
+        <div class="pic"><img src="../images/f5.jpg" alt=""></div>
+    </div>
+</section>
+
+<!--第六层-->
+<section class="fsix">
+    <div class="safe clear">
+        <div class="title"><img src="../images/title6.jpg" alt=""></div>
+        <div class="pic"><img src="../images/f6.jpg" alt=""></div>
+    </div>
+</section>
+
+<!--页脚-->
+<footer class="foot">
+    <img class="pimg" src="../images/bottombanner.gif" alt="">
+    <img class="mimg" src="../images/mbottombanner.gif" alt="">
+</footer>
+
+<script src="../js/swiper.min.js"></script>
+<script src="../js/swiper.animate.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+    });
+</script>
+</body>
+</html>

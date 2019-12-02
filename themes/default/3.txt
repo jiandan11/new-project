@@ -1,0 +1,64 @@
+﻿2月份完成
+模板pc  -- 150
+模板m   -- 50
+
+3月份 任务
+通用插件：
+1.底部
+2.友情链接
+3.banner幻灯
+4.轮播
+5.切换
+6.弹窗QQ客服
+7.分享
+8.意见反馈弹窗
+9.返回顶部
+10.仿京东淘宝放大镜效果
+11.高级：繁体简体切换语言切换
+css规范：.dbgms_  开头
+
+.dbgms_nouth_wrap       北部包
+.dbgms_header_wrap      头部包
+
+.dbgms_nav_wrap         顶部导航包
+.dbgms_banner_wrap      banner幻灯片包
+ 
+.dbgms_centent_wrap     中心包    
+.dbgms_main_wrap        主体包
+
+    --- .dbgms_block_wrap      	块包   --可float 左右  --可大小宽度高度
+ 包含： - title 当前块问题描述和icon图标
+        - more 查看更多按钮
+        - 可选 列表形式
+      包含： - 栏目列表
+             - 图文列表   9宫格 竖排列 或者 一排列滚动
+             - 文章列表   9行 竖排列  或者  一排列滚动
+        - 可选 内容详情     
+      包含： - 文章详情
+             - 图文详情   
+             
+
+    --- .dbgms_column_wrap      栏目包   --可float 左右
+
+    --- .dbgms_article_list     文章列表--可加包--可float 左右
+    --- .dbgms_article_content  文章详情--可加包--可float 左右
+    --- .dbgms_article_comment  文章评论--可加包--可float 左右
+
+    --- .dbgms_pic_list         图文列表--可加包--可float 左右
+    --- .dbgms_pic_content      图文详情--可加包--可float 左右
+    --- .dbgms_pic_comment      图文评论--可加包--可float 左右
+     
+.dbgms_flink_wrap       友情链接包
+.dbgms_footer_wrap      底部包
+.dbgms_feedback_wrap    意见反馈包
+
+
+
+
+<style style="text/css">#_ideConac{position: relative;top: -105px;left: 333px;}</style>
+<div class="bot wraper"><a href="http://www.kuaisou360.com" target="_blank"><img src="imgCus/bot_bg.jpg" width="980" height="116" border="0" /></a>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/14/214/0000/60434150/CA142140000604341500001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+</div>
+
+   

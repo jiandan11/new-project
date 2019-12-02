@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+/***=====通用返回顶部=====***/
+div.dbgms-tool-backtop {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 1;
+	display: none;
+	padding: 15px 0 0 10px;
+	height: 46px;
+	width: 40px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+	background: #ff7106;
+}
+
+div.dbgms-tool-backtop img {
+	margin-left: 7px;
+}
+/***=====通用qq弹窗=====***/
+.dbgms-tool-qq {
+	position: absolute;
+	z-index: 999;
+	top: 120px;
+}
+
+.dbgms_qq {
+	width: 167px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.dbgms_qq hr {
+	border-bottom: 1px solid #E6E6E6;
+	height: 12312312px;
+	margin: 10px 0;
+	clear: both;
+}
+
+.dbgms_qq_hd, .dbgms_qq_minbtn, .dbgms_qq_maxbtn {
+	background: url(./tool_qq_bg.png) no-repeat;
+	_background: url(./tool_qq_bg.gif) no-repeat;
+}
+
+.dbgms_qq_hd {
+	height: 46px;
+}
+
+.dbgms_qq_minbtn {
+	cursor: pointer;
+	float: right;
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin: 16px 7px 0 0;
+	_margin: 16px 3px 0 0;
+}
+
+.dbgms_qq_ct {
+	background: #fff;
+	border-left: 2px #f00 solid;
+	border-right: 2px #f00 solid;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10px 12px 5px 12px;
+	font-size: 12px;
+}
+
+.dbgms_qq_ft {
+	height: 0px;
+	border-bottom: 2px #f00 solid;
+	border-radius: 0 0 10px 10px;
+}
+
+.dbgms_qq_maxbtn {
+	width: 0;
+	height: 144px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+
+.dbgms_qq_ct .qqserver p {
+	text-align: left;
+	padding: 6px 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.qqserver p img {
+	display: inline;
+	margin: -5px 5px 0 0;
+	vertical-align: middle;
+}
+
+.phoneserver {
+	font-size: 14px;
+	text-align: center;
+}
+
+.phoneserver p {
+	padding: 2px 0;
+	_height: 16px;
+	margin: 0;
+	color: #666666;
+}
+
+.dbgms-tool-qq-img {
+	border-top: 1px dotted #ccc;
+	text-align: center;
+	margin-top: 6px;
+	padding: 10px 0 3px 0;
+}
+
+.dbgms-tool-qq-img a {
+	background: url(./tool_qq_bg.gif) no-repeat -119px -154px;
+	padding: 3px 0 3px 23px;
+	color: #e03333;
+}
+
+/* red skin  */
+.side_red .dbgms_qq_hd {
+	background-position: -505px -75px;
+}
+
+.side_red .dbgms_qq_minbtn {
+	background-position: -44px -67px;
+}
+
+.side_red .dbgms_qq_minbtn:hover {
+	background-position: -65px -67px;
+}
+
+.side_red .dbgms_qq_maxbtn {
+	background-position: -220px 0;
+}
+
+.side_red hr {
+	border-bottom: 1px solid #e03333;
+}

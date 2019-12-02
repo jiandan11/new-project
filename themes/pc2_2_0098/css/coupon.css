@@ -1,0 +1,1253 @@
+.YS {
+    overflow: hidden;
+    width: 250px;
+	margin-top:30px;
+	float:left;
+}
+.YS .upFile i {
+    font-size: 14px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.YS .upFile  {
+    padding: 4px 0;
+    text-align: center;
+    width: 248px;
+}
+#coupon_list .diybg {
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    float: left;
+    height: 165px;
+    margin: 0 15px 15px 0;
+    text-align: center;
+    width: 245px;
+}
+#coupon_list .diybg img {
+    margin: 12px auto 0;
+}
+#coupon_list .diylast {
+    margin-right: 0;
+}
+#coupon_list #addDiyBg {
+    background: #f1f1f1 none repeat scroll 0 0;
+    display: block;
+    height: 140px;
+    margin: 12px auto 0;
+    text-decoration: none;
+    width: 175px;
+}
+#coupon_list #addDiyBg i {
+    color: #fff;
+    font-size: 50px;
+}
+#coupon_list #addDiyBg img {
+    margin: 25px auto 15px;
+}
+#coupon_list #addDiyBg .t {
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+}
+#coupon_list #addDiyBg:hover {
+    background: #e8e8e8 none repeat scroll 0 0;
+}
+.coupon_right {
+    margin-left: 20px;
+    overflow: hidden;
+    width: 31%;
+	margin-top:5px;
+	float:left;
+}
+.coupon_right .selectColor {
+    margin: 10px auto;
+}
+.coupon_right .selectColor .color {
+    color: #fff;
+    margin-right: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 168px !important;
+}
+.coupon_right .upFile i {
+    font-size: 14px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.coupon_right .upFile  {
+    padding: 4px 0;
+    text-align: center;
+    width: 248px;
+}
+#couponBox1 {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+#couponBox1 .box_bg {
+    color: #fff;
+}
+#couponBox1 .couBox {
+    width:100%;
+	height:100%;
+}
+#couponBox1 .couBox .dContent {
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: left;
+}
+#couponBox1 .couBox .money {
+    line-height: 36px;
+}
+#couponBox1 .couBox .money .f {
+    font-family: "verdana";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+#couponBox1 .couBox .money .ME {
+    font-family: Impact,Charcoal,sans-serif,"verdana";
+    font-size: 60px;
+}
+#couponBox1 .couBox .name {
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 26px;
+    margin-top: 5px;
+}
+#couponBox1 .couBox .condition {
+    color: #000;
+    font-size: 12px;
+    line-height: 180%;
+    margin-top: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    text-align: left;
+    width: 215px;
+}
+#couponBox2 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 215px;
+}
+#couponBox2 .box_bg {
+    color: #fff;
+    height: 144px;
+    margin: 0 auto;
+}
+#couponBox2 .couBox {
+    padding: 15px 8px 20px;
+}
+#couponBox2 #couponMain {
+    height: 95px;
+}
+#couponBox2 .couBox .money {
+    float: left;
+}
+#couponBox2 .couBox .money .f {
+    font-family: "verdana";
+    font-size: 18px;
+    font-weight: bold;
+}
+#couponBox2 .couBox .money .ME {
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 55px;
+    letter-spacing: -1px;
+    line-height: 100%;
+}
+#couponBox2 .couBox #coupons_c {
+    margin-left: 100px;
+    padding-top: 6px;
+}
+#couponBox2 .couBox .name {
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 26px;
+}
+#couponBox2 .couBox .condition {
+    color: #fff;
+    font-size: 12px;
+    line-height: 180%;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 110px;
+}
+#couponBox2 #coupons_b a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 16px;
+    opacity: 0.8;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#couponBox2 .time {
+    color: #fff;
+    line-height: 25px;
+    margin-left: -5px;
+    font-size: 12px;
+	width:215px;
+	float:left;
+	text-align:center;
+}
+#couponBox3 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 215px;
+}
+#couponBox3 .box_bg {
+    color: #fff;
+}
+#couponBox3 .couBox {
+    padding: 5px 0 0 9px;
+}
+#couponBox3 #couponMain {
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+#couponBox3 .couBox .money {
+    float: left;
+    margin-top: 8px;
+}
+#couponBox3 .couBox .money .ME {
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 59px;
+    line-height: 100%;
+}
+#couponBox3 .couBox #coupons_c {
+    margin-left: 91px;
+    padding-top: 10px;
+}
+#couponBox3 .couBox .name {
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: center;
+}
+#couponBox3 .couBox .condition {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 180%;
+    overflow: hidden;
+    text-align: center;
+    width: 115px;
+    margin-top: 20px;
+}
+#couponBox3 .time {
+    color: #fff;
+    line-height: 25px;
+    padding-top: 23px;
+    font-size: 12px;
+}
+#couponBox4 {
+    margin: 0 auto;
+    width: 165px;
+}
+#couponBox4 .show_box{
+	width: 172px;
+	height: 146px;
+}
+#couponBox4 .box_bg {
+    color: #fff;
+    margin: 0 auto;
+    height: 146px;
+    width:172px;
+}
+#couponBox4 .couBox {
+    padding: 0 3px;
+}
+#couponBox4 #couponMain {
+    overflow: hidden;
+    position: relative;
+}
+#couponBox4 .couBox .money {
+    float: left;
+    margin-top: 8px;
+}
+#couponBox4 .couBox .money .f {
+    font-family: "Airal";
+    font-size: 14px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#couponBox4 .couBox .money .ME {
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 50px;
+    line-height: 100%;
+    padding-left: 15px;
+}
+#couponBox4 .couBox #coupons_c {
+    line-height: normal;
+    margin-left: 58px;
+    padding: 6px 0;
+    text-align: left;
+}
+#couponBox4 .couBox .name {
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 24px;
+    padding-top: 20px;
+   
+}
+#couponBox4 .couBox .condition {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 180%;
+    overflow: hidden;
+    text-align: center;
+    width: 115px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+#couponBox4 #coupons_b a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 16px;
+    opacity: 0.4;
+    margin-top: 12px;
+    text-align: center;
+    width: 100%;
+}
+#couponBox5 {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 135px;
+}
+#couponBox5 .box_bg {
+    color: #fff;
+}
+#couponBox5 .couBox {
+    overflow: hidden;
+    padding: 3px;
+}
+#couponBox5 #couponMain {
+    border-right: 1px dotted #fff;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 98px;
+}
+#couponBox5 .couBox .money {
+}
+#couponBox5 .couBox .money .f {
+    font-family: "Airal";
+    font-size: 14px;
+    font-weight: bold;
+    left: 8px;
+    position: absolute;
+}
+#couponBox5 .couBox .money .ME {
+    display: block;
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 32px;
+    line-height: 100%;
+    margin-left: 28px;
+}
+#couponBox5 .couBox .condition {
+    color: #fff;
+    font-family: "����",arial;
+    font-size: 12px;
+    line-height: normal;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+#couponBox5 #couponRight {
+    display: block;
+    float: right;
+}
+#couponBox5 #couponRight .receive {
+    line-height: 180%;
+    position: relative;
+    text-align: center;
+    width: 20px;
+}
+#couponBox5 .receive .i {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -7px;
+    height: 0;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+#styleshow {
+    border: 1px solid #ddd;
+    text-align: left;
+	height: 184px; 
+	cursor:pointer;
+	margin-bottom:5px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+    line-height: 180%;
+}
+#couponBox6 {
+    line-height: 36px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 144px;
+}
+#couponBox6 .box_bg {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #EEEDF2;
+}
+#couponBox6 .couBox {
+    padding: 0 8px;
+}
+#couponBox6 #couponMain {
+    overflow: hidden;
+    padding-top: 5px;
+    position: relative;
+}
+#couponBox6 .couBox .money {
+    overflow: hidden;
+   height: 75px;
+}
+#couponBox6 .couBox .money .f {
+    float: left;
+    font-family: "verdana";
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 24px;
+}
+#couponBox6 .couBox .money .ME {
+    display: block;
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 55px;
+    line-height: 100%;
+    padding-top: 2px;
+    text-align: center;
+	float:left;
+}
+#couponBox6 .name {
+    font-family: "Microsoft Yahei","verdana";
+    position: relative;
+    text-align: center;
+    width:10px;
+    bottom: 40px;
+    left: 65px;
+}
+#couponBox6 .couBox .condition  {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 180%;
+    overflow: hidden;
+    text-align: center;
+    width: 115px;
+    margin:20px 0 2px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#couponBox6 .receive{
+    color: #fff;
+    font-size: 12px;
+    line-height: 180%;
+    margin-left: 35px;  
+}
+#couponBox7 {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    padding-top:5px;
+    width: 200px;
+}
+#couponBox7 .box_bg {
+    color: #333;
+    background-color: #e85d1f;
+    margin-top: 5px;
+}
+#couponBox7 .couBox {
+    padding: 0;
+}
+#couponBox7 #couponMain {
+    overflow: hidden;
+    padding: 0 12px 0 5px;
+    position: relative;
+}
+#couponBox7 .couBox .money {
+    float: left;
+    margin-top: 6px;
+}
+#couponBox7 .couBox .money .ME {
+    color: #000;
+    display: block;
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 75px;
+    letter-spacing: -3px;
+    line-height: 80%;
+    opacity: 0.4;
+    text-align: center;
+}
+#couponBox7 .couBox #couponRight {
+    float: right;
+    line-height: 120%;
+    margin-top: 20px;
+    width: 20px;
+    /*padding-right: 25px;*/
+}
+#couponBox7 .receive {
+    color: #fff;
+}
+#couponBox7 .couBox .condition {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 180%;
+    overflow: hidden;
+    padding: 6px 0 10px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#couponBox7 .couBox .name7 {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    color: #000;
+    line-height: 28px;
+    opacity: 0.5;
+    text-align: center;
+}
+#couponBox8 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 191px;
+}
+#couponBox8 .box_bg {
+    color: #fff;
+}
+#couponBox8 #couponMain {
+    overflow: hidden;
+    position: relative;
+}
+#couponBox8 .couBox .money {
+    padding: 15px 0 0;
+    text-align: center;
+}
+#couponBox8 .couBox .money .ME {
+    font-family: "MS Sans Serif",Geneva,sans-serif,"verdana";
+    font-size: 65px;
+    line-height: 100%;
+    text-align: center;
+}
+#couponBox8 .couBox .condition {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 180%;
+    margin: 0 0 10px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#couponBox8 #coupons_b {
+    color: #fff;
+    display: block;
+    font-family: "Microsoft Yahei","verdana";
+    font-size: 12px;
+    line-height: 150%;
+    padding: 8px 10px 10px;
+    text-align: left;
+}
+#couponBox8 #coupons_b .b {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 178px;
+}
+#couponBox9{
+	float: left;
+    width: 100%;
+    height: 165px;
+    //margin: 0px 15px 15px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+#couponBox9 .couBox .plus {
+    padding: 15px 0 0;
+    text-align: center;
+}
+#couponBox9 .box_bg {
+	width: 230px;
+    color: #fff;
+    height: 144px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#couponBox9 .plus img{
+	margin-top: 26px;
+}
+i {
+    font-size: 16px;  
+    vertical-align: middle;
+}
+#couponBox9_1{
+	float: left;
+    width: 245px;
+    height: 165px;
+    margin: 0px 15px 15px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+#couponBox9_1 .couBox .plus {
+    padding: 15px 0 0;
+    text-align: center;
+}
+#couponBox9_1 .box_bg {
+	width: 230px;
+    color: #fff;
+    height: 144px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+i {
+    font-size: 16px;
+    vertical-align: middle;
+}
+/*
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    line-height: 180%;
+    margin: 0;
+    padding: 0;
+}
+input {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+em, i {
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+ul {
+    list-style: outside none none;
+}
+td {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+input[type="checkbox"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 13px;
+    margin-right: 2px;
+    width: 13px;
+}
+input[type="checkbox"]:focus, input[type="checkbox"]:hover {
+    border-color: #06c;
+}
+input[type="checkbox"]:checked {
+    background: rgba(0, 0, 0, 0) url("/images/v8/checkoutico.png") no-repeat scroll center -6px;
+    border-color: #ccc;
+}
+input[type="radio"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    height: 13px;
+    margin-right: 0;
+    width: 13px;
+}
+input[type="radio"]:focus, input[type="radio"]:hover {
+    border-color: #06c;
+}
+input[type="radio"]:checked {
+    border-color: #ccc;
+}
+#Umian {
+    margin: 0 auto 50px;
+    overflow: hidden;
+    padding: 50px 30px 30px 280px;
+}
+#Umian #userTables {
+    margin-top: 10px;
+}
+#userTables td.lTd {
+    color: #333;
+    font-size: 14px;
+    padding-right: 10px;
+}
+#userTables td .v8Btn3, #userTables td .v8Btn2 {
+    font-size: 14px;
+    line-height: 39px;
+    padding: 0;
+    text-align: center;
+    width: 154px;
+}
+#userTables td .v8Btn2 {
+    margin-left: 10px;
+}
+#userTables .Input {
+    width: 350px;
+    height: 30px;
+}
+#userTables td.lTd {
+    color: #333;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.yahei {
+    font-family: Arial,"Microsoft YaHei";
+    margin-top: 0;
+}
+.rightMenuBar {
+    border-bottom: 1px solid #dbdbdb;
+    height: 50px;
+    line-height: 50px;
+}
+.rightMenuBar .leftBar {
+    float: left;
+    width: 40%;
+}
+.rightMenuBar .rightBar {
+    float: left;
+    width: 60%;
+}
+.leftBar h5 {
+    color: #121212;
+    font-size: 18px;
+}
+.rightBar .floatR {
+    float: right;
+}
+.rightBar .selectUl li {
+    color: #e2e2e2;
+    float: left;
+}
+.rightBar .selectUl li a {
+    color: #333;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.rightBar .selectUl li:last-child a {
+    padding-right: 0;
+}
+.rightBar .selectUl li .current {
+    color: #f00;
+}
+
+.v6Input {
+    box-shadow: none;
+}
+#wyManageMain {
+	background-color: #fff;
+}
+#wyManageMain .wyManageMain_c {
+    margin: 20px;
+}
+#wyManageMain .wyAddBtn {
+    color: #fff;
+    padding: 4px 35px;
+}
+#wyManageMain .wyAddBtn i {
+    font-size: 14px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+select.v6Input {
+    box-shadow: none;
+    min-width: 80px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-indent: 0;
+}
+.wyManageTable input.smallInput {
+    width: 52px;
+}
+.addTables {
+    padding: 20px;
+}
+.addTables .selectTime input {
+    margin-left: 8px;
+    margin-right: 5px;
+    width: 50px !important;
+}
+.addTables .selecBookTime {
+    width: 158px !important;
+}
+.wy_fillBtn{
+	width: 250px;
+	text-align: center;
+	border: 1px solid #ccc;
+    color: #666;
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
+#wyManageMain .autoColor, #wyManageMain .wy_fillBtn:hover {
+    color: #fff !important;
+}
+#wyManageMain .wy_fillBtn, .wy_fillBtn, .wy_fillBtn:hover {
+    background: #eee none repeat scroll 0 0;
+}
+.showorder .v6Input {
+    width: 50px !important;
+}
+.wyRight i {
+    font-size: 14px;
+    padding-right: 6px;
+    vertical-align: middle;
+}
+.addSeat a {
+    margin-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.selectTimeTable {
+    table-layout: auto;
+}
+.selectTimeTable input.smallInput {
+    width: 50px;
+}
+#wyManageMain li.selectDateSection {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+    float: right;
+}
+li.selectDateSection span {
+    padding: 0 8px;
+}
+#wySearch .boxV6MainSubButton {
+    float: left;
+}
+#wySearch .v6Input {
+    border-width: 1px 0;
+    box-shadow: none;
+    float: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.printOrder a {
+    background: #46b8da none repeat scroll 0 0;
+    border: 1px solid #46b8da;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 0;
+    overflow: visible;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.printOrder a.printDetail, .printOrder a.printDetail:hover {
+    background: #4cae4c none repeat scroll 0 0;
+    border: 1px solid #4cae4c;
+}
+.printOrder a i {
+    padding-right: 4px;
+    vertical-align: middle;
+}
+.printOrder a:hover {
+    background: #46b8da none repeat scroll 0 0;
+    color: #fff;
+}
+li.infoTitle {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+#wy_Order_Detail .wyManageMain_c {
+    padding: 10px;
+}
+#customerInfo {
+    overflow: hidden;
+}
+#customerInfo li {
+    float: left;
+    line-height: 32px;
+    width: 50%;
+}
+#customerInfo li .t {
+    display: inline-block;
+    width: 70px;
+}
+.orderDetailTable {
+    margin-top: 20px;
+}
+.orderDetailTable td {
+    text-align: center;
+}
+.orderDetailTable .wy-order-hd td {
+    color: #333;
+    padding-left: 5px;
+}
+.wy-order-bottom td {
+    background: #f5f5f5 none repeat scroll 0 0;
+    height: 50px;
+}
+.wy-order-bottom .news-spe {
+    color: #ff6600;
+    float: left;
+    margin-left: 10px;
+}
+.wy-order-bottom .wy-account {
+    float: right;
+    margin-right: 10px;
+}
+.wy-order-bottom .wy-account .p {
+    color: #f00;
+    font-size: 24px;
+}
+#sendPro {
+    background: #eee none repeat scroll 0 0;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#sendPro .t {
+    padding-left: 20px;
+}
+#sendPro select {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 150px;
+}
+.editTable .redfont {
+    padding-left: 3px;
+}
+.redfont {
+    color: #f00;
+}
+.editTable .smallInput {
+    width: 50px !important;
+}
+.takeawaySetting .editTable .note {
+    display: block;
+    line-height: normal;
+    overflow: hidden;
+    font-size: 12px;
+    color: #ccc;
+}
+.storeTable td {
+    height: 45px !important;
+}
+.editTable .boxV6MainSubButton {
+    line-height: 25px;
+}
+.editTable .fillBtn {
+    background: #f4f4f4 none repeat scroll 0 0;
+}
+a.selectOpenTime {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-left: 0 none;
+    display: inline-block;
+    overflow: visible;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+a.selectOpenTime i {
+    vertical-align: middle;
+}
+.marketMain .sInput {
+    margin-right: 3px;
+    width: 80px !important;
+}
+.marketMain .bInput {
+    width: 600px !important;
+}
+.marketMain .wyManageTable {
+    table-layout: auto;
+}
+.addTables .mInput {
+    width: 100px !important;
+    height: 30px;
+}
+.SE_time i {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-color: #ccc -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    color: #565656;
+    font-size: 14px;
+    margin-top: 1px;
+    padding: 8px 7px 7px;
+    vertical-align: middle;
+}
+.SE_time .v6Input {
+    background: #f5f5f5 none repeat scroll 0 0;
+    width: 150px !important;
+    margin-left: -6px;
+    margin-top: -5px;
+}
+#wyEditBox .changeNote textarea {
+    width: 450px !important;
+}
+.searchPoint i {
+    font-size: 14px;
+    padding-right: 5px;
+}
+.prosearch .pro_keyword {
+}
+.wyManage .wyRight select {
+    margin-right: 5px;
+}
+
+.wy_fillBtn:hover{
+	background:#1C76F5 none repeat scroll 0 0;
+	color: white;
+	text-decoration: none;
+}
+#styleshow .diyupImg {
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.preferentialPro {
+    margin-top: 15px;
+}
+.preferentialPro th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #eee none repeat scroll 0 0;
+    border-color: #dbdbdb #dbdbdb #dbdbdb -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.preferentialPro td {
+    border-bottom: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    text-align: center !important;
+}
+.preferentialPro .firstT {
+    border-left: 1px solid #dbdbdb;
+}
+.preferentialPro td img {
+    float: left;
+    height: 48px;
+    margin: 15px 10px 10px;
+    width: 48px;
+}
+.preferentialPro td span {
+    color: #333;
+    display: inline-block;
+    float: left;
+    line-height: 180%;
+    margin-top: 15px;
+    text-align: left;
+    width: 77%;
+}
+.preferentialPro td .PPInput {
+    border: 1px solid #dbdbdb;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.pmtData {
+    background: #fcf8e3 none repeat scroll 0 0;
+    border: 1px solid #faebcc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.pmtData span {
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 10px 0 20px;
+    width: 80px;
+}
+.pmtData span, .pmtData dl, .pmtData .wyRight {
+    float: left;
+}
+.pmtData .wyRight {
+    float: right;
+    margin: 30px 20px 0 0;
+}
+
+.boxV6Button {
+    background: #1c76f5 none repeat scroll 0 0;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 35px;
+}
+.boxV6Button:hover {
+    border-color: transparent;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.boxV6Btnwhite {
+    background-image: -moz-linear-gradient(center top , #ffffff, #eaeaea);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px 40px;
+}
+.boxV6Btnwhite:hover {
+    box-shadow: 1px -1px 1px #ddd;
+}
+#boxV6ButtonAdd {
+    background: #1c76f5 url("/images/v6/buttonback_add.png") no-repeat scroll left center;
+    padding-left: 65px;
+}
+#boxV6ButtonAdd:hover {
+    background: #1c76f5 url("/images/v6/buttonback_add_hover.png") no-repeat scroll left center;
+}
+#boxV6MainSInfo {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    color: #999999;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+#boxV6MainSubMenu {
+    background: #efefef none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    color: #999999;
+    padding: 18px 20px 15px;
+}
+#bottomButton {
+    background: #f5f3f4 none repeat scroll 0 0;
+    border-radius: 0 0 2px 2px;
+    border-top: 1px solid #ccc;
+    height: 60px;
+}
+#bottomButton_back {
+    background-color: #e5e5e5;
+    border: 1px solid #dbdbdb;
+    color: #1c76f5;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+#bottomButton_submit {
+    float: right;
+    margin: 12px 20px 0 0;
+}
+.boxV6ButtonSmall {
+    background-color: #fff !important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    color: #1c76f5;
+    padding: 7px 22px;
+    text-shadow: none;
+}
+.boxV6ButtonSmall:hover, #bottomButton_back:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
+#boxV6Main {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 20px;
+}
+#boxV6Main .v6Input {
+    box-shadow: none;
+}
+.v6Input {
+    border: 1px solid #dbdbdb;
+    padding: 4px;
+}
+.v6InputImg {
+    padding: 0;
+}
+.v6InputImg img {
+    border-radius: 3px;
+}
+input.v6Input {
+    line-height: 167%;
+}
+input[type="checkbox"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    height: 13px;
+    margin-right: 2px;
+    width: 13px;
+}
+input[type="checkbox"]:focus, input[type="checkbox"]:hover {
+    border-color: #06c;
+}
+input[type="checkbox"]:checked {
+    background: rgba(0, 0, 0, 0) url("/images/v8/checkoutico.png") no-repeat scroll center -6px;
+    border-color: #ccc;
+}
+input[type="radio"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    height: 13px;
+    margin-right: 0;
+    outline: medium none;
+    width: 13px;
+}
+input[type="radio"]:focus, input[type="radio"]:hover {
+    border-color: #06c;
+}
+input[type="radio"]:checked {
+    border-color: #ccc;
+}
+option {
+    line-height: normal;
+}
+#boxV6Main select.v6Input {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+#wyEditBox .editTable td {
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.coupondiy {
+    padding-top: 30px;
+    width: 280px;
+}
+#couponBox2 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 215px;
+}
+#couponBox2 .box_bg {
+    color: #fff;
+    height: 144px;
+    margin: 0 auto;
+}
+#couponBox2 .couBox {
+    padding: 15px 8px 20px;
+}
+#couponBox2 #couponMain {
+    height: 95px;
+}
+.bgColor{
+	width: 169px;
+	height: 25px;
+	border: 1px solid #ccc;
+	cursor: default; 
+	background: rgb(255, 204, 95) none repeat scroll 0% 0%; 
+	color: rgb(0, 0, 0);
+}
+*/

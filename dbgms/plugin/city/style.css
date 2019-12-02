@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+ol, ul {
+	list-style: none;
+}
+/*produce-list*/
+.produce-list {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.produce-list-navigation {
+	color: #666666;
+	font-size: 12px;
+}
+
+.produce-list-xz, .produce-list-px {
+	width: 1200px;
+	height: 185px;
+	background-color: #FFFFFF;
+	border: 1px solid #e9eced;
+	margin-top: 10px;
+}
+
+.produce-list-xz ul.produce-list-xzul {
+	padding: 0 10px;
+}
+
+.produce-list-xz ul li.produce-list-xzli {
+	height: 30px;
+	padding: 15px 30px;
+	border-bottom: 1px dashed #EEEEEE;
+}
+
+.produce-list-xz ul li.produce-list-xzli:last-child {
+	border-bottom: none;
+}
+
+.produce-list-xz ul li.produce-list-xzli label {
+	float: left;
+	line-height: 32px;
+	color: #999999;
+	font-size: 13px;
+	width: 88px;
+}
+
+.produce-list-xzli-select {
+	background-color: #FFFFFF;
+	width: 140px;
+	height: 30px;
+	overflow: hidden;
+	background: url(./arrow.png) no-repeat;
+	background-position: right 10px center;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	float: left;
+	margin-right: 20px;
+}
+
+.produce-list-xzli-select select {
+	background: transparent;
+	border: none;
+	font-size: 13px;
+	height: 30px;
+	width: 158px;
+	padding: 5px;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+	-moz-user-select: none; /* mozilla browsers */
+	-khtml-user-select: none; /* webkit (konqueror) browsers */
+	-ms-user-select: none; /* IE10+ */
+}

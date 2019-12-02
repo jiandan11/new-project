@@ -1,0 +1,139 @@
+
+body {font-family: 'SimHei';}
+
+/*公共部分*/
+* {margin: 0;padding: 0;box-sizing: border-box;}
+a {text-decoration: none; cursor: pointer;}
+li {list-style: none;cursor: pointer;}
+button {border: none;outline: none;}
+input {outline: none;}
+@media (min-width: 768px) {
+    .safe {width: 1200px;margin: 0 auto;}
+    .pimg{display: block;}
+    .mimg{display: none;}
+    .meun{display: block;}
+    .miniicon{display: none;}
+}
+@media (max-width: 768px) {
+    .safe{width: 100vw;margin: 0 auto;}
+    .pimg{display: none;}
+    .mimg{display: block;}
+    .meun{display: none;}
+    .miniicon{display: block;}
+}
+.clear::after {content: '';display: block;clear: both;}
+.left {float: left;}
+.right {float: right;}
+
+/*居中*/
+.fathercenter {position: relative;}
+
+.childcenter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.ff{display: flex;flex-direction: column;}
+.cc{align-self: center;}
+.title,.pic{text-align: center;}
+.pic img{width: 100%;}
+
+/*nav*/
+.nav{width: 100%;height: 1rem;}
+.logo{padding-left:10px;font-size: 0.48rem;line-height: 1rem;font-weight: bold;color: #333;}
+.meun{width: 70%;padding-right: 10px;}
+.meun ul li a{text-align:center;font-size: 0.3rem;line-height:1rem;color: #333333;float: left;width: 25%;}
+.meun ul li a:hover{color: #39a1e1;font-weight: bold;}
+.meun .navon{color: #39a1e1;}
+
+
+.miniicon{width: 1rem;height: 1rem;}
+.miniicon img{width: 100%;}
+.mmeun{z-index: 100;position: absolute;top: 1rem;left: 0;width: 100%;background-color: white;}
+.mmeun ul li a{padding-left:20px;font-size: 0.32rem;line-height:0.64rem;color: #333333;display: block;width: 100%;border-top: 1px solid #eeeeee;}
+
+
+
+/*页脚*/
+.foot img{width: 100%;}
+/*公共部分 end*/
+
+/*首页*/
+/*banner*/
+.swiper-container img{width: 100%;}
+.swiper-button-prev{color: rgba(255,255,255,0.8);border: none;}
+.swiper-button-next{color: rgba(255,255,255,0.8);}
+
+/*第一层*/
+.fone{margin-top: 0.4rem;}
+.fone ul li{width: 30%;margin-left:3%;float: left;}
+.fone ul li img{width: 100%;}
+.more img{width: 100%;}
+
+/*第二层*/
+.ftwo{margin-top: 0.4rem;}
+
+/*第三层*/
+.fthree{margin-top: 0.4rem;}
+
+/*第四层*/
+.ffour{margin-top: 0.4rem;}
+.ffour .bgpic {position: absolute;top:10px;z-index: -1;width: 100%;}
+.ffour .ff img:first-child{width: 100%;}
+.ffour .ff span:nth-child(2){font-size: 0.6rem;color: #fff;margin-top:0.6rem;}
+.ffour .ff span:nth-child(3){font-size: 0.36rem;color: #fff;margin-top:0.2rem;}
+.ffour .ff img:last-child{margin-top: 0.6rem;}
+
+/*第五层*/
+.ffive{margin-top: 0.4rem;}
+
+/*第六层*/
+.fsix{margin-top: 0.4rem;}
+
+/*首页end*/
+
+/*分类页*/
+.casebanner img{width: 100%;}
+
+.casetitle{margin-top: 0.8rem;}
+.casetitle ul{width: 100%}
+.casetitle li{width: 18%;float: left;text-align: center;border: 1px solid #333;height: 0.6rem;margin: 1%;}
+.casetitle li a{display:block;color:#333333;font-size: 0.28rem;line-height: 0.6rem;width: 100%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.casetitle li .casetitleon,.casetitle li a:hover{color: white;background-color: #333333;}
+
+.goods{float: left;width: 30%;margin: 1.5%;border: 1px solid #8b8b8b;}
+.goods img{width: 100%}
+.goods .caption{border-top:1px solid #8b8b8b;}
+.goods span{display:block;line-height:0.5rem;font-size: 0.28rem;padding-left:0.1rem;width: 100%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+.casepage {display: flex;flex-direction: column;}
+.casepage .clear{text-align:center;align-self: center;height: 0.6rem;margin-bottom: 0.8rem;margin-top: 0.2rem;}
+.casepage a{float:left;width:0.32rem;height:0.32rem;font-size: 0.28rem;color: #333333;display: block;border: 1px solid #333333;}
+.casepage a:hover,.casepage .pageon{color: white;background-color: #555;}
+.casepage .prev,.casepage .next{border:none;width: 1rem;}
+/*分类页end*/
+
+/*关于我们*/
+.aboutbanner img{width: 100%;}
+.aboutcontent{margin-top: 0.8rem;margin-bottom: 0.8rem;}
+.aboutcontent div p span{display: block;}
+/*关于我们end*/
+
+/*联系我们*/
+.contactbanner img{width: 100%;}
+.contactcontent{margin-top: 0.8rem;margin-bottom: 0.8rem;}
+.contactcontent div p span{display: block;}
+
+/*移动端*/
+@media (max-width:768px) {
+
+    .fone ul li{width: 45.5%;}
+
+    .ffour .ff span:nth-child(2){font-size: 20px;}
+    .ffour .ff span:nth-child(3){font-size: 14px;margin-top: 10px}
+    .ffour .ff img:last-child{width: 80%;margin-top: 10px}
+
+    .title img{width: 50%;}
+
+}
+

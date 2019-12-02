@@ -1,0 +1,1216 @@
+.httpset {
+	display: inline;
+	float: left;
+}
+
+.httpset li {
+	display: inline;
+	float: left;
+	padding: 0 6px;
+	height: 22px;
+	background: #eee;
+	margin-right: 5px;
+	border: 1px solid #ddd;
+	color: #666;
+	border-radius: 4px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.httpset li.active {
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #111
+}
+
+#httpsetTR td {
+	border-left: 2px solid #ddd;
+	padding-left: 8px
+}
+
+#httpsetTR td.ft {
+	padding-left: 0;
+	border-left: 0
+}
+
+#httpSetTab {
+	background: #f8f8f8
+}
+
+#httpSetTab #httpsetTR tr td {
+	height: 90px;
+	vertical-align: top
+}
+
+.httpcanel {
+	display: inline;
+	float: right;
+	margin: 5px 8px 0 0;
+}
+
+#test_artRules #httpSetTab {
+	background: #EEEEEE
+}
+
+#test_artRules .httpset li {
+	background: #999;
+	border: 1px solid #555;
+	color: #fff
+}
+
+#test_artRules .httpset li.active {
+	background: #fff;
+	border: 1px solid #666;
+	color: #111
+}
+
+.collect_testpage #httpSetTab {
+	background: #fff;
+	width: 546px;
+	margin-left: 6px;
+}
+
+/*批量采集功能专用CSS 比较复杂*/
+.regmatch {
+	margin-left: 6px;
+	float: left
+}
+
+.regmatch dd {
+	text-decoration: underline;
+	padding-bottom: 8px;
+	color: #0046D5;
+	cursor: pointer;
+}
+
+.collect_rela {
+	width: 580px;
+	margin-left: 106px;
+	position: relative;
+	height: 600px;
+}
+
+.collect_pos {
+	position: absolute;
+	width: 1200px;
+	top: 0;
+	left: 0;
+}
+
+table.collect_tab {
+	width: 580px;
+	float: left;
+}
+
+.collect_wrp {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.collect_lists {
+	display: inline;
+	width: 474px;
+	float: left;
+	padding: 8px 12px 12px 12px;
+	border: 1px solid #ccc;
+	background: #F3F3F3
+}
+
+.collect_lists h3 {
+	font-size: 12px;
+	line-height: 1.3;
+	color: #444;
+	height: 20px;
+}
+
+.collect_lists ul {
+	width: 468px;
+	border: 1px solid #7F9DB9;
+	padding: 1px 1px 0 1px;
+	background: #fff;
+	height: 152px;
+	overflow-x: hidden;
+	overflow-y: auto
+}
+
+.collect_lists ul li {
+	cursor: default;
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+	text-indent: 6px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.collect_lists ul li:hover {
+	background: #C8EDFF
+}
+
+.collect_lists ul li.active {
+	background: #316AC5;
+	color: #fff
+}
+
+.collect_dos {
+	float: left;
+	margin-left: 8px;
+}
+
+.collect_dos li {
+	margin-bottom: 5px;
+}
+
+.collect_navs {
+	width: 100%;
+	height: 26px;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+
+.collect_navs a {
+	float: right;
+	font-weight: bold;
+}
+
+.collect_navs ul {
+	float: left
+}
+
+.collect_navs ul li {
+	float: left;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 0 4px;
+	width: 80px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+	color: #999;
+}
+
+.collect_navs ul li.active {
+	background: #f8f8f8;
+	border-bottom: 1px solid #f8f8f8
+}
+
+.collect_adurls {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+
+.collect_adurlscnt {
+	width: 550px;
+	background: #f8f8f8;
+	border: 1px solid #ccc;
+	padding: 8px 8px 5px 8px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-top: -1px;
+}
+
+.collect_adurls h3 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #A52A2A;
+	height: 24px;
+	width: 100%
+}
+
+.collect_adurls h3 u {
+	color: #008000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.collect_adurls h3 span {
+	float: right;
+	margin-top: -3px;
+	position: relative
+}
+
+.collect_adurls h3 span input {
+	margin-left: 10px
+}
+
+.collect_adtxt {
+	width: 100%;
+	margin-top: 4px;
+}
+
+.collect_adtxt b {
+	width: 13px;
+	float: left;
+	padding-right: 5px;
+	color: #999
+}
+
+.collect_adtxt textarea {
+	font-size: 12px;
+	resize: none;
+	color: #333
+}
+
+.collect_adtxt .a {
+	width: 544px;
+	background: #fff;
+	border: 1px solid #7F9DB9;
+}
+
+.collect_adtxt .b {
+	width: 526px;
+	background: #ECE9D8;
+	border: 1px solid #7F9DB9;
+}
+
+.collect_setx {
+	width: 100%;
+	padding-top: 4px;
+}
+
+.collect_setx li {
+	width: 100%;
+	height: 24px;
+	line-height: 18px;
+	line-height: 22px\9;
+	padding: 3px 0;
+}
+
+.collect_setx li s {
+	float: left;
+	color: #666;
+	text-decoration: none;
+	display: inline;
+	margin-right: 5px;
+	line-height: 24px
+}
+
+.collect_setx li s input {
+	float: left;
+	width: 60px;
+	height: 18px;
+	padding: 1px 0 0 3px;
+}
+
+.collect_setx li label {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	margin-top: 1px\9;
+}
+
+.collect_setx li label input {
+	float: left;
+	margin: 3px 2px 0 0;
+	*margin: 0;
+}
+
+.collect_adurlsover {
+	width: 550px;
+	padding: 0 8px;
+	background: #fcfcfc;
+	margin-top: 0;
+	padding-top: 10px;
+	height: 115px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #eee;
+}
+
+.collect_adurlsok {
+	width: 548px;
+	height: 80px;
+	border: 1px solid #999;
+	background: #fff;
+	font-size: 12px;
+	color: #333;
+	resize: none;
+	cursor: default
+}
+
+.collect_gsons {
+	float: left;
+	padding: 8px 12px 12px 12px;
+	border: 1px solid #aaa;
+	background: #F3F3F3;
+	width: 534px
+}
+
+.collect_gsons h3 {
+	font-size: 12px;
+	line-height: 1;
+	color: #444;
+	height: 20px;
+	border-bottom: 1px solid #ccc
+}
+
+.collect_gsons h3 b {
+	float: left
+}
+
+.collect_gsons h3 a {
+	float: right
+}
+
+.collect_gsons h4, .collect_gsons h5 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #0046D5;
+	width: 100%;
+	padding-top: 3px;
+	float: left;
+}
+
+.collect_gsons h4 u, .collect_gsons h5 u {
+	cursor: pointer;
+}
+
+.collect_gsons h4 {
+	border-top: 1px solid #fff;
+}
+
+.collect_gsons h5 {
+	padding-top: 10px;
+}
+
+.collect_qsets, .collect_qsets2, .collect_qsets3 {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.collect_qsets b {
+	float: left;
+	margin: 0 5px;
+	margin-top: 2px;
+	font-weight: normal;
+}
+
+.collect_qsets b.t {
+	margin-top: 15px;
+}
+
+.collect_qsets b u {
+	color: #0046D5;
+	cursor: pointer;
+}
+
+.collect_qsets textarea {
+	float: left;
+	width: 230px;
+	height: 70px;
+	font-size: 12px;
+	color: #333
+}
+
+.collect_qsets input {
+	float: left;
+	width: 380px;
+	height: 18px;
+	padding: 3px 0 1px 3px;
+	color: #333
+}
+
+.collect_qsets u.sp {
+	float: left;
+	color: #0046D5;
+	cursor: pointer;
+	display: inline;
+	margin: 5px 0 0 4px;
+}
+
+.collect_qend {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.collect_qend button {
+	float: left;
+	margin-right: 10px;
+}
+
+.collect_addatacnt {
+	width: 550px;
+	height: 362px;
+	background: #f8f8f8;
+	border: 1px solid #ccc;
+	padding: 8px 8px 5px 8px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-top: -1px;
+}
+
+.collect_addatacnt input {
+	line-height: 1
+}
+
+.collect_mlists {
+	display: inline;
+	width: 474px;
+	float: left;
+	padding: 8px 12px 12px 12px;
+	border: 1px solid #ccc;
+	background: #F3F3F3
+}
+
+.collect_mlists h3 {
+	font-size: 12px;
+	line-height: 1.3;
+	color: #444;
+	height: 20px;
+}
+
+.collect_tags {
+	width: 468px;
+	border: 1px solid #7F9DB9;
+	padding: 1px 1px 0 1px;
+	background: #fff;
+	height: 230px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.collect_mlists ul {
+	width: 468px;
+	display: inline;
+	float: left;
+	border-bottom: 1px solid #ECE9D8;
+}
+
+.collect_mlists ul li {
+	cursor: default;
+	height: 22px;
+	padding-top: 2px;
+	line-height: 18px;
+	text-indent: 6px;
+	overflow: hidden;
+	padding-left: 8px;
+	float: left;
+	border-left: 1px solid #ECE9D8;
+	width: 90px;
+}
+
+.collect_mlists ul.fst, .collect_mlists ul.fst:hover {
+	background: #B7C8D7;
+	padding: 1px 1px 0 1px;
+	color: #486784;
+	border: 1px solid #7F9DB9;
+	border-bottom: 0;
+}
+
+.collect_mlists ul.fst li {
+	border-left: 1px solid #7F9DB9;
+}
+
+.collect_mlists ul li.f {
+	width: 60px;
+	border-left: 0;
+}
+
+.collect_mlists ul:hover {
+	background: #C8EDFF
+}
+
+.collect_mlists ul.parentTag {
+	background: #aaa
+}
+
+.collect_mlists ul.active {
+	background: #316AC5;
+	color: #fff
+}
+
+.collect_ccset {
+	float: left;
+	display: inline;
+	color: #666;
+}
+
+.collect_ccset div {
+	float: left;
+	display: inline;
+	margin-left: 18px;
+}
+
+.collect_ccset div b {
+	float: left;
+	font-weight: normal;
+	margin-top: 4px;
+}
+
+.collect_ccset div input {
+	width: 90px;
+	height: 18px;
+	padding: 2px 0 1px 3px;
+	border: 1px solid #ccc;
+	background: #fff;;
+	color: #444;
+	float: left;
+}
+
+.collect_ccset label {
+	float: left;
+	display: inline;
+	margin-left: 6px;
+}
+
+.collect_citem {
+	width: 100%;
+	display: inline-block;
+}
+
+.collect_citem h4 {
+	width: 100%;
+	height: 22px;
+	float: left;
+	color: #3B5999;
+	font-size: 12px;
+}
+
+.collect_citem h4 b {
+	float: left;
+	margin-top: 1px;
+	padding-right: 8px;
+	display: inline;
+}
+
+.collect_citem h4 .labelwrp {
+	font-weight: normal;
+	display: inline;
+}
+
+.collect_unfix {
+	width: 100%;
+	float: left;
+	height: 132px;
+}
+
+.collect_unfixinfo {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+	color: #999;
+	font-size: 14px;
+}
+
+.collect_gstyleone {
+	width: 100%;
+	float: left;
+	height: 90px;
+	display: inline-block;
+	padding-top: 8px;
+	margin-top: 10px;
+}
+
+.collect_gstyleone b {
+	float: left;
+	margin: 0 5px;
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+.collect_gstyleone b.t {
+	margin-top: 15px;
+}
+
+.collect_gstyleone b u {
+	cursor: pointer;
+	color: #0046D5
+}
+
+.collect_gstyleone textarea {
+	float: left;
+	width: 230px;
+	height: 80px;
+	font-size: 12px;
+	color: #333;
+	font-size: 12px;
+}
+
+.collect_gstyleone .parent_taglist {
+	width: 200px;
+}
+
+.collect_gstyleone .aa {
+	width: 100%;
+	display: inline;
+	float: left;
+	height: 22px;
+}
+
+.collect_gstyleone .aa li {
+	width: 268px;
+	float: left;
+	height: 22px;
+	overflow: hidden;
+}
+
+.collect_gstyleone .aa li u {
+	cursor: pointer;
+	color: #0046D5
+}
+
+.collect_cmhtag {
+	float: left
+}
+
+.collect_cmhtag select {
+	width: 130px;
+	height: 80px;
+}
+
+.collect_datareg {
+	padding: 10px 0 4px 0;
+}
+
+.collect_datarule {
+	width: 124px;
+	float: left;
+}
+
+.collect_datarule div {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.collect_datarule .collect_dtitem {
+	height: 162px;
+	background: #fff;
+	border: 1px solid #7F9DB9;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.collect_datarule ul {
+	width: 122px;
+	float: left;
+	display: inline;
+	margin: 1px;
+	text-align: left;
+}
+
+.collect_datarule ul li {
+	cursor: default;
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+	text-indent: 6px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	float: left;
+	white-space: nowrap;
+}
+
+.collect_datarule ul li:hover {
+	background: #C8EDFF
+}
+
+.collect_datarule ul li.active {
+	background: #316AC5;
+	color: #fff
+}
+
+.collect_datarule div u {
+	display: inline;
+	float: left;
+	margin: 3px 14px 0 0;
+	cursor: pointer;
+	color: #3B5999
+}
+
+.collect_datarule div u.lst {
+	margin-right: 0
+}
+
+.collect_datatypes {
+	float: left;
+	padding-left: 90px;
+	display: inline;
+}
+
+.collect_datatypes .t {
+	float: left
+}
+
+.collect_datatypes select {
+	float: left;
+	width: 120px;
+}
+
+.collect_datatypes u {
+	margin-left: 120px;
+	cursor: pointer
+}
+
+.collect_datablockw {
+	display: inline;
+	margin-left: 20px;
+	float: left;
+	border: 1px solid #fff;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+.collect_datablock {
+	width: 390px;
+	height: 170px;
+	float: left;
+	display: inline;
+	border: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	padding: 5px;
+}
+
+.collect_bokinfo {
+	color: #888;
+	text-shadow: 1px 1px #fff;
+}
+
+.collect_bokreplace {
+	width: 100%;
+	float: left;
+}
+
+.collect_bokreplace textarea {
+	float: left;
+	width: 180px;
+	height: 145px;
+	font-size: 12px;
+}
+
+.collect_bokreplace b {
+	float: left;
+	font-weight: normal;
+	width: 16px;
+	display: inline;
+	padding-left: 5px;
+	padding-top: 50px;
+}
+
+.collect_bokreplace .hp {
+	width: 100%;
+	height: 22px;
+	float: left;
+}
+
+.collect_bokitem .collect_lbul li {
+	display: inline;
+	float: left;
+	width: 130px;
+	height: 21px;
+}
+
+.collect_bokitem .collect_lbul s {
+	color: #999;
+	text-decoration: none;
+}
+
+.collect_bokitem label {
+	margin: 0 0 0 0;
+}
+
+.collect_bokprev, .collect_bokprev div {
+	width: 100%;
+	float: left;
+}
+
+.collect_bokprev div b {
+	float: left;
+	margin-top: 28px
+}
+
+.collect_bokprev div textarea {
+	float: left;
+	width: 280px;
+	height: 65px;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.collect_datafix {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.collect_datafix li {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+
+.collect_datafix li label {
+	display: inline;
+	width: 104px;
+	float: left;
+	padding-right: 12px;
+}
+
+.collect_datafix li label input {
+	float: left;
+	margin: 6px 3px 0 0;
+	margin: 5px 3px 0 0\9;
+	*margin: 1px 0 0 0\9;
+}
+
+.collect_datafix li label b {
+	float: left;
+	font-weight: normal;
+	margin-top: 4px;
+}
+
+.collect_datafix li span {
+	display: inline;
+	width: 430px;
+	float: left;
+	padding-top: 3px;
+}
+
+.collect_datafix li span textarea {
+	width: 420px;
+	height: 70px;
+	float: left;
+	font-size: 12px;
+}
+
+.collect_datafix li span b {
+	font-weight: normal;
+}
+
+.collect_dataend {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	padding-top: 8px;
+	height: 32px;
+	background: #eee
+}
+
+.collect_dataend button {
+	float: left;
+	display: inline;
+	margin: 0 10px 0 4px;
+}
+
+.collect_pagesets {
+	float: left;
+}
+
+.collect_pagesets .collect_gsons {
+	position: relative;
+	z-index: 1;
+	margin-top: -1px;
+	background: #F8F8F8;
+	border: 1px solid #ccc;
+	padding-top: 0;
+}
+
+.collect_pagesets .collect_qsets b.t {
+	margin-top: 15px;
+}
+
+.collect_pagesets .collect_qsets textarea {
+	height: 43px;
+}
+
+.collect_pagesets .collect_qsets2 {
+	padding-top: 10px;
+}
+
+.collect_pagesets .collect_qsets2 label b {
+	color: #0080C0
+}
+
+.collect_testpage {
+	width: 558px;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.collect_testpage .t {
+	width: 100%;
+	height: 30px;
+	float: left;
+	padding-top: 10px;
+}
+
+.collect_testpage .t .itxt {
+	width: 400px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+
+.collect_testpage .t .btn2, .collect_testpage .t .btn3 {
+	float: left;
+	display: inline;
+	margin-left: 5px;
+}
+
+.collect_testpage .m {
+	width: 100%;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+
+.collect_testpage .m textarea {
+	width: 516px;
+	height: 520px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.ListRulesTest {
+	width: 640px;
+	float: left
+}
+
+.ListRulesDos {
+	width: 100%;
+	height: 40px;
+	float: left;
+	background: #eee;
+}
+
+.ListRules_msg {
+	float: left;
+	display: inline;
+	margin: 10px 0 0 10px;
+}
+
+.ListRules_sets {
+	float: right;
+	display: inline;
+	margin: 8px 12px 0 0;
+}
+
+.ListRules_sets input {
+	margin-right: 6px;
+}
+
+.btnDis {
+	background: #ddd;
+	color: #aaa;
+	border-color: #ccc #aaa #aaa #ccc;
+	cursor: not-allowed
+}
+
+.ListRulesSr {
+	width: 100%;
+	height: 600px;
+	border: 1px solid #ccc;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.ListRulesRs {
+	width: 610px;
+	float: left;
+	padding: 8px 0 15px 0;
+}
+
+.ListRulesRs ul {
+	padding-left: 15px
+}
+
+.ListRulesRs ul li {
+	white-space: nowrap;
+	width: 100%;
+	height: 18px;
+	overflow: hidden;
+	float: left;
+	margin-top: 2px;
+}
+
+.ListRulesRs ul li i, .ListRulesRs ul li b, .ListRulesRs ul li span {
+	display: inline;
+	float: left;
+	font-weight: normal;
+	font-weight: normal;
+}
+
+.ListRulesRs ul li span.open, .ListRulesRs ul li span.close {
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 6px;
+	color: #222;
+	border: 1px solid #888;
+	text-align: center;
+	margin: 4px 4px 0 0;
+	cursor: default;
+	border-radius: 2px;
+	background: #f7f7f7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+		to(#dddddd));
+	background: -moz-linear-gradient(top, #ffffff, #dddddd);
+	background: -o-linear-gradient(top, #ffffff, #dddddd);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff,
+		endColorStr=#dddddd);
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.ListRulesRs ul li b {
+	color: #0080C0;
+	cursor: default
+}
+
+.ListRulesRs ul li b.e {
+	color: #666
+}
+
+.ListRulesRs ul li b.w {
+	color: #FF0000
+}
+
+.ListRulesRs ul li b.hover {
+	color: #f60;
+}
+
+.ListRulesRs ul li i {
+	color: red
+}
+
+.ListRulesRs ul li i.r {
+	color: green
+}
+
+.artRules {
+	width: 630px;
+	float: left;
+	padding: 0 5px;
+	display: inline-block;
+	background: #eee;
+}
+
+.artRules .t {
+	width: 100%;
+	height: 30px;
+	float: left;
+	padding-top: 10px;
+}
+
+.artRules .t .itxt {
+	width: 480px;
+	float: left;
+	display: inline;
+}
+
+.artRules .t .btn2, .artRules .t .btn3 {
+	float: left;
+	display: inline;
+	margin-left: 5px;
+}
+
+.artRules .m {
+	width: 100%;
+	float: left;
+}
+
+.artRules .m textarea {
+	width: 610px;
+	height: 500px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.MatchTagShow {
+	width: 380px;
+	background: #FCFCDF;
+	border: 1px solid #333;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: left
+}
+
+.MatchTagShow ul {
+	width: 350px;
+	float: left;
+	padding: 0 0 10px 5px;
+}
+
+.MatchTagShow ul li {
+	width: 100%;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #000
+}
+
+.MatchTagShow ul li b {
+	color: #008040
+}
+
+.collect_qwater {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.collect_qwater .n {
+	display: inline;
+	float: left;
+	padding-left: 4px;
+}
+
+.collect_qwater .r {
+	width: 220px;
+	float: left;
+}
+
+.collect_qwater .r b {
+	font-weight: normal
+}
+
+.collect_qwater .r .d {
+	width: 240px;
+	padding-left: 10px;
+	height: 30px;
+	float: left;
+}
+
+.collect_qwater .r .f {
+	width: 100%;
+	float: left;
+}
+
+.collect_qwater .r .f ul {
+	
+}
+
+.collect_qwater .r .f ul li {
+	width: 60px;
+	padding: 4px 0 0 10px;
+	float: left;
+	border: 1px solid #ddd;
+}

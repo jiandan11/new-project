@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ECF9EB;
+	background: url('login_grass.jpg');
+	font-size: 13px;
+}
+
+.login_warp {
+	position: relative;
+	width: 468px;
+	height: 468px;
+	margin: 30px auto;
+	background: url('login_bg2.png') no-repeat;
+	left: 50%;
+	margin-left: -234px;
+}
+
+.login_top {
+	height: 240px;
+	width: 468px;
+}
+
+.login_main_warp {
+	width: 468px;
+	height: 140px;
+	padding-left: 110px;
+}
+
+.login_main {
+	width: 250px;
+	height: 140px;
+}
+
+.login_main input {
+	height: 37px;
+	color: #666;
+	margin: 4px auto;
+	padding-left: 10px;
+	font-size: 13pt;
+	line-height: 37px;
+	border: 0;
+	width: 232px;
+}
+
+.login_main .login_user {
+	background: url('login_user.png') no-repeat;
+}
+
+.login_main .login_pwd {
+	background: url('login_pwd.png') no-repeat;
+}
+
+.login_main .login_check {
+	background: #fff;
+	height: 35px;
+	width: 100px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	border-radius: 4px;
+	float: left;
+}
+
+.login_main .check_img {
+	float: right;
+	width: 80px;
+	padding: 3px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.login_btn {
+	height: 80px;
+	width: 330px;
+	padding: 6px 68px 0 68px;
+}
+
+.dbgms_login_submit {
+	width: 330px;
+	height: 72px;
+	background: url('login_enter.png') no-repeat;
+	border: 0;
+	display: block;
+	font-size: 18px;
+	color: #FFF;
+	font-weight: bolder;
+}

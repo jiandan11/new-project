@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="yes" name=" apple-mobile-web-app-capable"/>
+    <meta content="no" name="apple-touch-fullscreen"/>
+    <meta content="black" name=" apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="validation-tag" content="ssad/tetris_web/page/adapt_pc"/>
+    <title>凌云数据</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="y-wrap">
+    <iframe frameborder="no" src="main.html"></iframe>
+    <div class="y-qrcode">
+        <div class="y-desc">请扫描上方的二维码预览</div>
+    </div>
+</div>
+<script src="https://jianzhan-fe.cdn.bcebos.com/js/qrcode.js"></script>
+<script>
+    var link = window.location ? window.location.href : "https://isite.baidu.com";
+    var ele = document.querySelector('.y-qrcode');
+    var qrcode = new QRCode(ele, {
+        width: 200,
+        height: 200
+    });
+    qrcode.makeCode(link);
+</script>
+</body>
+</html>
