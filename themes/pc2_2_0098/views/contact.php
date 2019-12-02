@@ -10,9 +10,9 @@
         <!--  碎片  -->
         <div style="text-align:center;font-size: 15px">
             <!--  电话  -->
-            <span id="tel"><?php $aaa = getFragment(8);echo $aaa['content']; ?></span>
+            <span id="tel"><?php $aaa = getFragment(4);echo $aaa['content']; ?></span>
             <!--  地址  -->
-            <span id="address"><?php $aaa = getFragment(7);echo $aaa['content']; ?></span>
+            <span id="address"><?php $aaa = getFragment(3);echo $aaa['content']; ?></span>
         </div>
         <?php $colum = getColumn(1, 'gongsijianjie',true); ?>
         <span style="display: none" id="introduction"><?php echo $colum['content'];?></span>
